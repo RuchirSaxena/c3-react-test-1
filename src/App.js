@@ -1,5 +1,5 @@
 import React from "react";
-import { PearsonUsers } from "./PearsonUsers";
+import { PearsonUsers } from "./Components/UserComponent/PearsonUsers";
 
 export const App = () => (
   <main>
