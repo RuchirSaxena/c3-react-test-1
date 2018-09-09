@@ -1,0 +1,762 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PearsonUsers test cases matches the snapshot for User Component 1`] = `
+<div>
+  <img
+    alt="person image"
+    aria-hidden={true}
+    src="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+  />
+  <h3>
+    George
+     
+    Bluth
+  </h3>
+  <a
+    onClick={[Function]}
+  >
+    Delete
+  </a>
+</div>
+`;
+
+exports[`PearsonUsers test cases render a list of users from the state correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PearsonUsers />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Pearson User Management
+</h1>,
+        <div
+          className="box1"
+>
+          <ul>
+                    <li>
+                               
+                              <User
+                                        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+                                        first_name="Eve"
+                                        handleDeleteUser={[Function]}
+                                        id={4}
+                                        last_name="Holt"
+                              />
+                               
+                    </li>
+                    <li>
+                               
+                              <User
+                                        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+                                        first_name="Charles"
+                                        handleDeleteUser={[Function]}
+                                        id={5}
+                                        last_name="Morris"
+                              />
+                               
+                    </li>
+                    <li>
+                               
+                              <User
+                                        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+                                        first_name="Tracey"
+                                        handleDeleteUser={[Function]}
+                                        id={6}
+                                        last_name="Ramos"
+                              />
+                               
+                    </li>
+                    <li>
+                               
+                              <User
+                                        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+                                        first_name="George"
+                                        handleDeleteUser={[Function]}
+                                        id={1}
+                                        last_name="Bluth"
+                              />
+                               
+                    </li>
+          </ul>
+</div>,
+      ],
+      "className": "pearon-users",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Pearson User Management",
+        },
+        "ref": null,
+        "rendered": "Pearson User Management",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ul>
+              <li>
+                             
+                            <User
+                                          avatar="https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+                                          first_name="Eve"
+                                          handleDeleteUser={[Function]}
+                                          id={4}
+                                          last_name="Holt"
+                            />
+                             
+              </li>
+              <li>
+                             
+                            <User
+                                          avatar="https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+                                          first_name="Charles"
+                                          handleDeleteUser={[Function]}
+                                          id={5}
+                                          last_name="Morris"
+                            />
+                             
+              </li>
+              <li>
+                             
+                            <User
+                                          avatar="https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+                                          first_name="Tracey"
+                                          handleDeleteUser={[Function]}
+                                          id={6}
+                                          last_name="Ramos"
+                            />
+                             
+              </li>
+              <li>
+                             
+                            <User
+                                          avatar="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+                                          first_name="George"
+                                          handleDeleteUser={[Function]}
+                                          id={1}
+                                          last_name="Bluth"
+                            />
+                             
+              </li>
+</ul>,
+            false,
+          ],
+          "className": "box1",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li>
+                   
+                  <User
+                                    avatar="https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+                                    first_name="Eve"
+                                    handleDeleteUser={[Function]}
+                                    id={4}
+                                    last_name="Holt"
+                  />
+                   
+</li>,
+                <li>
+                   
+                  <User
+                                    avatar="https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+                                    first_name="Charles"
+                                    handleDeleteUser={[Function]}
+                                    id={5}
+                                    last_name="Morris"
+                  />
+                   
+</li>,
+                <li>
+                   
+                  <User
+                                    avatar="https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+                                    first_name="Tracey"
+                                    handleDeleteUser={[Function]}
+                                    id={6}
+                                    last_name="Ramos"
+                  />
+                   
+</li>,
+                <li>
+                   
+                  <User
+                                    avatar="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+                                    first_name="George"
+                                    handleDeleteUser={[Function]}
+                                    id={1}
+                                    last_name="Bluth"
+                  />
+                   
+</li>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "4",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    <User
+                      avatar="https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+                      first_name="Eve"
+                      handleDeleteUser={[Function]}
+                      id={4}
+                      last_name="Holt"
+/>,
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg",
+                      "first_name": "Eve",
+                      "handleDeleteUser": [Function],
+                      "id": 4,
+                      "last_name": "Holt",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  " ",
+                ],
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "5",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    <User
+                      avatar="https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+                      first_name="Charles"
+                      handleDeleteUser={[Function]}
+                      id={5}
+                      last_name="Morris"
+/>,
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg",
+                      "first_name": "Charles",
+                      "handleDeleteUser": [Function],
+                      "id": 5,
+                      "last_name": "Morris",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  " ",
+                ],
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "6",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    <User
+                      avatar="https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+                      first_name="Tracey"
+                      handleDeleteUser={[Function]}
+                      id={6}
+                      last_name="Ramos"
+/>,
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
+                      "first_name": "Tracey",
+                      "handleDeleteUser": [Function],
+                      "id": 6,
+                      "last_name": "Ramos",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  " ",
+                ],
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    <User
+                      avatar="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+                      first_name="George"
+                      handleDeleteUser={[Function]}
+                      id={1}
+                      last_name="Bluth"
+/>,
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
+                      "first_name": "George",
+                      "handleDeleteUser": [Function],
+                      "id": 1,
+                      "last_name": "Bluth",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  " ",
+                ],
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Pearson User Management
+</h1>,
+          <div
+            className="box1"
+>
+            <ul>
+                        <li>
+                                     
+                                    <User
+                                                avatar="https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+                                                first_name="Eve"
+                                                handleDeleteUser={[Function]}
+                                                id={4}
+                                                last_name="Holt"
+                                    />
+                                     
+                        </li>
+                        <li>
+                                     
+                                    <User
+                                                avatar="https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+                                                first_name="Charles"
+                                                handleDeleteUser={[Function]}
+                                                id={5}
+                                                last_name="Morris"
+                                    />
+                                     
+                        </li>
+                        <li>
+                                     
+                                    <User
+                                                avatar="https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+                                                first_name="Tracey"
+                                                handleDeleteUser={[Function]}
+                                                id={6}
+                                                last_name="Ramos"
+                                    />
+                                     
+                        </li>
+                        <li>
+                                     
+                                    <User
+                                                avatar="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+                                                first_name="George"
+                                                handleDeleteUser={[Function]}
+                                                id={1}
+                                                last_name="Bluth"
+                                    />
+                                     
+                        </li>
+            </ul>
+</div>,
+        ],
+        "className": "pearon-users",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Pearson User Management",
+          },
+          "ref": null,
+          "rendered": "Pearson User Management",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ul>
+                <li>
+                                 
+                                <User
+                                                avatar="https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+                                                first_name="Eve"
+                                                handleDeleteUser={[Function]}
+                                                id={4}
+                                                last_name="Holt"
+                                />
+                                 
+                </li>
+                <li>
+                                 
+                                <User
+                                                avatar="https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+                                                first_name="Charles"
+                                                handleDeleteUser={[Function]}
+                                                id={5}
+                                                last_name="Morris"
+                                />
+                                 
+                </li>
+                <li>
+                                 
+                                <User
+                                                avatar="https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+                                                first_name="Tracey"
+                                                handleDeleteUser={[Function]}
+                                                id={6}
+                                                last_name="Ramos"
+                                />
+                                 
+                </li>
+                <li>
+                                 
+                                <User
+                                                avatar="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+                                                first_name="George"
+                                                handleDeleteUser={[Function]}
+                                                id={1}
+                                                last_name="Bluth"
+                                />
+                                 
+                </li>
+</ul>,
+              false,
+            ],
+            "className": "box1",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li>
+                     
+                    <User
+                                        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+                                        first_name="Eve"
+                                        handleDeleteUser={[Function]}
+                                        id={4}
+                                        last_name="Holt"
+                    />
+                     
+</li>,
+                  <li>
+                     
+                    <User
+                                        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+                                        first_name="Charles"
+                                        handleDeleteUser={[Function]}
+                                        id={5}
+                                        last_name="Morris"
+                    />
+                     
+</li>,
+                  <li>
+                     
+                    <User
+                                        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+                                        first_name="Tracey"
+                                        handleDeleteUser={[Function]}
+                                        id={6}
+                                        last_name="Ramos"
+                    />
+                     
+</li>,
+                  <li>
+                     
+                    <User
+                                        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+                                        first_name="George"
+                                        handleDeleteUser={[Function]}
+                                        id={1}
+                                        last_name="Bluth"
+                    />
+                     
+</li>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "4",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      <User
+                        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+                        first_name="Eve"
+                        handleDeleteUser={[Function]}
+                        id={4}
+                        last_name="Holt"
+/>,
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg",
+                        "first_name": "Eve",
+                        "handleDeleteUser": [Function],
+                        "id": 4,
+                        "last_name": "Holt",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    " ",
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "5",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      <User
+                        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+                        first_name="Charles"
+                        handleDeleteUser={[Function]}
+                        id={5}
+                        last_name="Morris"
+/>,
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg",
+                        "first_name": "Charles",
+                        "handleDeleteUser": [Function],
+                        "id": 5,
+                        "last_name": "Morris",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    " ",
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "6",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      <User
+                        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+                        first_name="Tracey"
+                        handleDeleteUser={[Function]}
+                        id={6}
+                        last_name="Ramos"
+/>,
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
+                        "first_name": "Tracey",
+                        "handleDeleteUser": [Function],
+                        "id": 6,
+                        "last_name": "Ramos",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    " ",
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      <User
+                        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+                        first_name="George"
+                        handleDeleteUser={[Function]}
+                        id={1}
+                        last_name="Bluth"
+/>,
+                      " ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
+                        "first_name": "George",
+                        "handleDeleteUser": [Function],
+                        "id": 1,
+                        "last_name": "Bluth",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    " ",
+                  ],
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

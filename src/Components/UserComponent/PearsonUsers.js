@@ -10,8 +10,30 @@ export class PearsonUsers extends Component {
     super(props);
 
     this.state = {
-      users: [],
-      isloading: false,
+      users: [
+        {
+          id: 4,
+          first_name: "Eve",
+          last_name: "Holt",
+          avatar:
+            "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+        },
+        {
+          id: 5,
+          first_name: "Charles",
+          last_name: "Morris",
+          avatar:
+            "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+        },
+        {
+          id: 6,
+          first_name: "Tracey",
+          last_name: "Ramos",
+          avatar:
+            "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+        }
+      ],
+      isloading: true,
       error: null
     };
 
@@ -22,9 +44,10 @@ export class PearsonUsers extends Component {
     this.setState({ isLoading: true });
     userDataApi(API_URL)
       .then(response => {
-        this.setState(() => {
+        debugger;
+        this.setState((prevState) => {
           return {
-            users: removeDuplicateUsers(response.data, "first_name", "last_name"),
+            users: removeDuplicateUsers([...prevState.users,...response.data]),
             isLoading: false
           }
         });
@@ -32,7 +55,6 @@ export class PearsonUsers extends Component {
       .catch(error => this.setState({ error, isLoading: false }));
   }
   handleDeleteUser(id) {
-
     this.setState((prevState) => {
       return {
         users: prevState.users.filter((user) => {
@@ -45,7 +67,7 @@ export class PearsonUsers extends Component {
     if (this.state.isLoading) {
       return <div className="loader"></div>;
     }
-    let userData = this.state.users.map((user) => {
+    const userData = this.state.users.map((user) => {
       return <li key={user.id}> <User  {...user} handleDeleteUser={this.handleDeleteUser} /> </li>
     });
     return (

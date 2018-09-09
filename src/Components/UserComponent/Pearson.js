@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-//Added aria-hidden to support the scenario of web accesibility
+//Added `aria-hidden` to support the scenario of web accesibility
 
 const User= (props) => {
 
-  let { id, first_name, last_name, avatar  }=props;
+  const { id, first_name, last_name, avatar  }=props;
   return (
       <div>
         <img src={avatar} aria-hidden alt="person image" />
